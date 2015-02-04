@@ -1,2 +1,2 @@
-:heart: a chrome plugin for generating an QR code from the Url :heart:
+chrome plugin for generating QR code
 ---
