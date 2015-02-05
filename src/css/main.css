@@ -7,3 +7,37 @@ ul, ol{
     list-style: none;
 }
 
+.container{
+    width: 450px;
+    height: auto;
+}
+
+.left{
+    margin: 20px 0 20px 20px;
+    float: left;
+}
+
+.right{
+    margin: 10px;
+    float: left;
+}
+
+.right input{
+    width: 190px;
+}
+
+.div_title{
+    margin-top: 75px;
+}
+
+.div_title span{
+    padding-right: 10px;
+}
+
+.div_url{
+    margin-top: 25px;
+}
+
+.div_url span{
+    padding-right: 10px;
+}

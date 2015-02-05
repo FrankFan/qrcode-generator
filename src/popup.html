@@ -1,14 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>二维码(QRcode)生成器</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1>hello chrome</h1>
+    <div class="container">
+        <div class="left">
+            <div id="qrcode"></div>
+            <span>当前页面二维码</span>
+        </div>
+        <div class="right">
+            <div class="div_title">
+                <span>标题</span><input type="text" id="title">
+            </div>
+            <div class="div_url">
+                <span>地址</span><input type="text" id="url">
+            </div>
+        </div>
+    </div>
 
-    <scirpt src="js/jquery.min.js"></scirpt>
-    <scirpt src="js/main.js"></scirpt>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.qrcode.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
