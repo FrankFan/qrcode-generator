@@ -4,10 +4,9 @@
       "default_icon": "icon/128.png",
       "default_popup": "popup.html"
    },
-   "content_scripts": [{"matches": ["*://*/*"], "js": ["js/contentScript.js"]}],
    "author":"http://www.fy98.com",
    "name": "二维码(QRcode)生成器",
-   "description": "根据Url一键生成当前页面的二维码，手机扫面直接访问，解放双手",
+   "description": "根据Url一键生成当前页面的二维码，手机扫码直接访问，解放双手",
    "icons": {
       "16": "icon/16.png",
       "48": "icon/48.png",
