@@ -17,6 +17,12 @@ ul, ol{
     float: left;
 }
 
+.left span{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
 .right{
     margin: 10px;
     float: left;
@@ -40,4 +46,9 @@ ul, ol{
 
 .div_url span{
     padding-right: 10px;
+}
+
+.div_copyright{
+    text-align: center;
+    margin-top: 20px;
 }
