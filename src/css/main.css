@@ -32,8 +32,14 @@ ul, ol{
     width: 190px;
 }
 
+.desc{
+    font-size: large;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .div_title{
-    margin-top: 75px;
+    margin-top: 25px;
 }
 
 .div_title span{
@@ -45,6 +51,14 @@ ul, ol{
 }
 
 .div_url span{
+    padding-right: 10px;
+}
+
+.div_tinyurl{
+    margin-top: 25px;
+}
+
+.div_tinyurl span{
     padding-right: 10px;
 }
 

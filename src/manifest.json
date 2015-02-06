@@ -14,6 +14,10 @@
    },
    "manifest_version": 2,
    "permissions": ["contextMenus", "tabs"],
+   "content_scripts": [{
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["js/jquery.min.js", "js/main.js"]
+   }],
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "1.0"
 }
