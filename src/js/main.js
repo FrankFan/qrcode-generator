@@ -2,8 +2,6 @@ $(function(){
 
     chrome.tabs.getSelected(null, function(tab){
 
-        console.dir(tab);
-
         var title = tab.title;
         var url = tab.url;
 
