@@ -1,24 +1,24 @@
 $(function(){
 
-    chrome.tabs.getSelected(null, function(tab){
+    if (chrome.tabs) {
+        chrome.tabs.getSelected(null, function(tab){
 
-        var title = tab.title;
-        var url = tab.url;
+            var title = tab.title;
+            var url = tab.url;
 
-        $('#qrcode').qrcode({
-            text: url,
-            width: '180',
-            height: '180'
+            $('#qrcode').qrcode({
+                text: url,
+                width: '180',
+                height: '180'
+            });
+
+            $('#title').val(title);
+            $('#url').val(url);
+
+            // 将url转成短链
+            getShortUrl(url);
         });
-
-        $('#title').val(title);
-        $('#url').val(url);
-
-        // 将url转成短链
-        getShortUrl(url);        
-
-        
-    });
+    };
 
     var getShortUrl = function(url_long) {
         var obj = {};
