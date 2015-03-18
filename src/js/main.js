@@ -34,9 +34,12 @@ $(function(){
                     obj = data.urls[0];
                     var tinyUrl = obj.url_short;
                     $('#tinyUrl').val(tinyUrl);
+                } else {
+                    $('#tinyUrl').val('~~出错了~~');
                 }
             },
             error: function(data) {
+                $('#tinyUrl').val('~~  error  ~~');
             }
         });
     };
