@@ -22,7 +22,8 @@ $(function(){
 
     var getShortUrl = function(url_long) {
         var obj = {};
-        var appkey = '648450463';
+        // var appkey = '648450463';
+        var appkey = '1681459862';
         var api = 'https://api.weibo.com/2/short_url/shorten.json?source={appkey}&url_long={url_long}';
         api = api.replace(/{appkey}/, appkey).replace(/{url_long}/, encodeURIComponent(url_long));
         $.ajax({
@@ -39,7 +40,7 @@ $(function(){
                 }
             },
             error: function(data) {
-                $('#tinyUrl').val('~~  error  ~~');
+                $('#tinyUrl').val('~~  error  ~~' + data.responseText);
             }
         });
     };
