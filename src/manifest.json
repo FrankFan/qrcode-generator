@@ -4,8 +4,9 @@
       "default_icon": "icon/128.png",
       "default_popup": "popup.html"
    },
-   "author":"http://www.fy98.com",
+   "author":"FrankFan",
    "name": "二维码(QRcode)生成器",
+   "homepage_url": "https://github.com/FrankFan/qrcode-generator",
    "description": "根据Url一键生成当前页面的二维码，手机扫码直接访问，解放双手",
    "icons": {
       "16": "icon/16.png",
@@ -19,5 +20,5 @@
       "js": ["js/jquery.min.js", "js/main.js"]
    }],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.0"
+   "version": "1.1"
 }

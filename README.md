@@ -3,7 +3,7 @@ chrome plugin for generating QR code
 
 Features:
 * Easy to use: one-click then get current tab url's QR code
-* you can get the short url, easy to share
+* get the short url and easy to share
 
 
 
