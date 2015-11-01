@@ -7,7 +7,7 @@ chrome extention for generating QR code
 
 ### screenshot
 
-![](http://images.cnitblog.com/blog2015/282019/201503/171620540178594.png)
+![screenshot](http://images.cnitblog.com/blog2015/282019/201503/171620540178594.png)
 
 ### install
 
