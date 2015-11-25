@@ -4,6 +4,7 @@ chrome extention for generating QR code
 ### usage
 * one-click the extentsion icon then get current tab url's QR code
 * also get the short url and easy to share
+* url too long and camera cannot read: zoom in mode
 
 ### screenshot
 

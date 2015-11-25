@@ -66,3 +66,29 @@ ul, ol{
     text-align: center;
     margin-top: 20px;
 }
+
+.second{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    
+    opacity:0;
+    display:block;
+    width:500px;
+    height:500px;
+    -webkit-transform:translate(0px,0px);
+    -webkit-transition:opacity 1s ease-in-out 0.5s,-webkit-transform 1s ease-in-out;
+    transition: opacity 1s ease-in-out 0.5s,transform 1s ease-in-out;
+
+}
+
+/* css3 动画 */
+
+.originalCanvas:hover ~ canvas{
+    opacity:1;
+
+    -webkit-transform:translate(10px,-180px);
+    -webkit-transition: opacity 1s ease-in-out,-webkit-transform 1s ease-in-out .1s;
+    transition: opacity 1s ease-in-out,transform 1s ease-in-out .1s;
+
+}
