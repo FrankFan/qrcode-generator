@@ -83,7 +83,6 @@ ul, ol{
 }
 
 /* css3 动画 */
-
 .originalCanvas:hover ~ canvas{
     opacity:1;
 
